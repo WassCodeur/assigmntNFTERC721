@@ -18,10 +18,13 @@ const config: HardhatUserConfig = {
     sepolia: {
       url: process.env.ALCHEMY_API_URL,
       accounts: [`0x${process.env.ACCOUNT_PRIVATE_KEY}`],
+      timeout: 1000000
     },
     holesky: {
       url: process.env.RPC_URL,
       accounts: [`0x${process.env.ACCOUNT_PRIVATE_KEY}`],
+      timeout: 1000000
+
     },
   },
   etherscan: {

@@ -2,13 +2,13 @@ import { ethers } from "hardhat";
 
 
 async function main() {
+
     const name = "BOUNFT";
     const symbol = "BNFT";
-    const totalSupply = 10;
 
     
 
-    const nft = await ethers.deployContract("MyNFT", [name, symbol]);
+    const nft = await ethers.deployContract("NFTContract", [name, symbol]);
 
     await nft.waitForDeployment();
 

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 350">
-   <style>.base { fill: white; font-family: serif; font-size: 4px; }</style>
-   <rect width="10%" height="10%" fill="black" />
-   <text x="50%" y="40%" class="base" dominant-baseline="middle" text-anchor="middle">Warrior</text>
-   <text x="50%" y="50%" class="base" dominant-baseline="middle" text-anchor="middle">Levels: getLevels(tokenId)</text>
- </svg>
